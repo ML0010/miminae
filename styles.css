@@ -1,4 +1,41 @@
 body {
     background: pink;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu-bar{
+    display: flex;
+    gap: 10px;
+}
+.pages {
+    margin: 80px;
+}
+.menu {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+.language {
+    float: right;
+    margin-right: auto;
+}
+.social-media {
+
+}
+a {
+    cursor: pointer;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+}
+a:visited {
+    color: black;
+}
+a:active {
+    color: black;
 }
