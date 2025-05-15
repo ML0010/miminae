@@ -5,23 +5,31 @@ body {
 }
 
 #menu-bar{
-    display: flex;
-    gap: 10px;
+    background: pink;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
 }
+#menu {
+    margin: 30px;
+    font-size: 28px;
+}
+#icons {
+    position: fixed;
+    top: 0;
+    right: 50px;
+    margin-right: 30px;
+}
+
 .pages {
     margin: 80px;
-}
-.menu {
-    text-align: center;
-    margin: 30px;
-    font-size: 20px;
+    padding-top: 100px;
+    height: 500px;
 }
 .language {
     float: right;
-    margin-right: auto;
-}
-.social-media {
-
+    margin-left: 30px;
 }
 a {
     cursor: pointer;
@@ -39,3 +47,5 @@ a:visited {
 a:active {
     color: black;
 }
+
+
